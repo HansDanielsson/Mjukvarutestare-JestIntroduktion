@@ -14,7 +14,7 @@ class Animal {
     }
 
     rename(newName) {
-        if (newName.includes('xxx') return 'Felaktigt namn'
+        if (newName.includes('xxx')) return 'Felaktigt namn'
 
         this.name = newName
     }

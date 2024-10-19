@@ -8,20 +8,20 @@ describe('Animal', () => {
 
     beforeAll(() => {
         // Skapa ett nytt Animal-objekt med ett unikt namn
-        myAnimal = new Animal("a", 1, "ape")
+        myAnimal = new Animal('a', 1, 'ape')
     })
 
     // Before each
     beforeEach(() => {
-        myAnimal.name = "a"
+        myAnimal.name = 'a'
         myAnimal.age = 1
-        myAnimal.species = "ape"
+        myAnimal.species = 'ape'
     })
 
-    it("Skapa Animal object", () => {
-        expect(myAnimal.name).toBe("a")
+    it('Skapa Animal object', () => {
+        expect(myAnimal.name).toBe('a')
         expect(myAnimal.age).toBe(1)
-        expect(myAnimal.species).toBe("ape")
+        expect(myAnimal.species).toBe('ape')
     })
 
     it("Aging", () => {
