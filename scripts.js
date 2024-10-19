@@ -1,5 +1,5 @@
 // Importera Animal class
-const Animal = require('./animal')
+const Animal = require('./animal.js')
 
 // Skapa ett objekt av Animal
 let myAnimal = new Animal("Elvis", 15, "Cat")
@@ -9,4 +9,4 @@ console.log(myAnimal.toString())
 
 //Birthday
 myAnimal.aging()
-myAnimal.toString()
+console.log(myAnimal.toString())

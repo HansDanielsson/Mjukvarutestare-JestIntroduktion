@@ -1,5 +1,5 @@
 //Importera animal
-const Animal = require("./animal")
+const Animal = require("./animal.js")
 
 //Skapa en ny instans av Animal
 describe('Animal', () => {
