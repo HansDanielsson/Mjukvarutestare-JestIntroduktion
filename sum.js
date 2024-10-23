@@ -8,4 +8,4 @@ function sub (a, b) {
 
 // export function
 
-module.exports = {sum, sub}
+module.exports = { sum, sub }

@@ -39,14 +39,14 @@ describe('Animal', () => {
   })
 
   it('Wrongful renaming', () => {
-  //Spara errormeddelande i var
-    let response = myAnimal.rename('Andxxxers')
+  // Spara errormeddelande i var
+    const response = myAnimal.rename('Andxxxers')
     expect(response).toMatch('Felaktigt namn')
-    expect(myAnimal.name).toBe('a') //Ingen ändring sker
+    expect(myAnimal.name).toBe('a') // Ingen ändring sker
   })
 
   it('ToString metod', () => {
-    let response = myAnimal.toString()
+    const response = myAnimal.toString()
     expect(response).toMatch('Denna ape heter a och är 1 år gammal.')
   })
 })
