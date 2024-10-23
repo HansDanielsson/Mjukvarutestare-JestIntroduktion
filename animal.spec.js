@@ -29,6 +29,14 @@ describe('Animal', () => {
     expect(myAnimal.age).toBe(2)
   })
 
+  it('Double Aging', () => {
+    expect(myAnimal.age).toBe(1)
+    myAnimal.aging()
+    expect(myAnimal.age).toBe(2)
+    myAnimal.aging()
+    expect(myAnimal.age).toBe(3)
+  })
+
   it('Renaming done correct', () => {
     myAnimal.rename('Adam')
     expect(myAnimal.name).toBe('Adam')
