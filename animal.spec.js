@@ -3,7 +3,6 @@ const Animal = require('./animal.js')
 
 // Skapa en ny instans av Animal
 describe('Animal', () => {
-
   let myAnimal
 
   beforeAll(() => {
